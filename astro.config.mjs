@@ -77,10 +77,7 @@ export default defineConfig({
     prefetchAll: false,
     defaultStrategy: 'hover',
   },
-});
   image: {
-    // Allow Astro's <Image> component to optimise images from these remote domains.
-    // Used for book covers (Open Library) and GitHub stats cards.
     domains: [
       'covers.openlibrary.org',
       'github-readme-stats.vercel.app',
@@ -97,10 +94,6 @@ export default defineConfig({
     }),
   ],
   vite: {
-    // Icons are provided by unplugin-icons: each icon is a static
-    // `~icons/<collection>/<name>` import compiled to a zero-JS inline SVG.
-    // An unknown icon name fails the build (unresolved import) instead of a
-    // silent warning, so there is no hand-maintained include list to drift.
     plugins: [tailwindcss(), Icons({ compiler: 'astro' })],
     resolve: {
       alias: {
@@ -117,7 +110,6 @@ export default defineConfig({
     build: {
       rollupOptions: {
         output: {
-          // Shorter, readable asset paths (e.g. _s/abc123.js instead of _astro/abc123.js)
           assetFileNames: '_s/[hash][extname]',
           chunkFileNames: '_s/[hash].js',
           entryFileNames: '_s/[hash].js',
