@@ -68,8 +68,8 @@ function rehypeBasePaths() {
 // `import.meta.env.SITE` and `import.meta.env.BASE_URL`; it is not the
 // source of truth for deployment URLs.
 export default defineConfig({
-  site: process.env.ASTRO_SITE ?? 'https://example.github.io', // override via ASTRO_SITE env var or edit directly
-  base: process.env.ASTRO_BASE ?? '', // override via ASTRO_BASE env var or set '/repo-name' for project pages
+  site: 'https://felipezb.github.io',
+  base: '',
   output: 'static',
   trailingSlash: 'always',
   compressHTML: true,
@@ -77,6 +77,7 @@ export default defineConfig({
     prefetchAll: false,
     defaultStrategy: 'hover',
   },
+});
   image: {
     // Allow Astro's <Image> component to optimise images from these remote domains.
     // Used for book covers (Open Library) and GitHub stats cards.
