@@ -32,7 +32,7 @@ export const site = {
   // ─── Identity ──────────────────────────────────────────────────────────────
 
   /** Site title. Shown in the browser tab and navbar. */
-  title: 'Albert Einstein',
+  title: 'Felipe Andrés Zambrano Brochero',
 
   /** Site description. Used in meta tags. */
   description: 'A simple, clean, and responsive Astro template for academics. Powered by as-folio.',
@@ -43,33 +43,14 @@ export const site = {
   // ─── Author ────────────────────────────────────────────────────────────────
 
   author: {
-    /** Full name shown in navbar, about page heading, and footer. */
-    name: 'Albert Einstein',
-
-    /** Short email address (used in social links). */
-    email: 'einstein@example.com',
-
-    /** Path to profile photo. Place image in public/assets/img/. */
-    avatar: '/assets/img/prof_pic.jpg',
-
-    /**
-     * Subtitle below your name on the about page.
-     * HTML is supported.
-     */
-    subtitle: `Theoretical Physicist
+    name: 'Felipe Andrés Zambrano Brochero',
+    email: 'fazambrano@unbosque.edu.co',
+    avatar: '/assets/img/prof_pic.jpeg',
+    subtitle: `Estudiante de Ingeniería de Sistemas
       &nbsp;·&nbsp;
-      <a href="https://en.wikipedia.org/wiki/Institute_for_Advanced_Study">Institute for Advanced Study</a>,
-      Princeton`,
-
-    /**
-     * Address block below profile photo.
-     * HTML is supported.
-     */
-    moreInfo: `<p>Institute for Advanced Study</p>
-      <p>Einstein Drive</p>
-      <p>Princeton, NJ 08540</p>`,
+      <a href="https://www.unbosque.edu.co/">Universidad El Bosque</a>`,
+    moreInfo: '',
   },
-
   // ─── Social links ──────────────────────────────────────────────────────────
   //
   // Supported platforms (set to undefined to hide):
@@ -79,94 +60,47 @@ export const site = {
   //   bluesky_handle, medium_username, cv_pdf, rss_icon
 
   socials: {
-    email: 'einstein@example.com',
+    email: 'fazambrano@unbosque.edu.co',
     x_username: undefined as string | undefined,
     linkedin_username: undefined as string | undefined,
-    github_username: undefined as string | undefined,
+    github_username: 'FelipeZB67',
     gitlab_username: undefined as string | undefined,
-    /** Google Scholar user ID — the part after user= in your Scholar URL */
-    scholar_userid: 'qc6CJjYAAAAJ',
+    scholar_userid: undefined as string | undefined,
     orcid_id: undefined as string | undefined,
-    /** Inspire HEP author ID */
-    inspire_id: '1010907',
+    inspire_id: undefined as string | undefined,
     researchgate_username: undefined as string | undefined,
     arxiv_id: undefined as string | undefined,
     youtube_id: undefined as string | undefined,
-    instagram_username: undefined as string | undefined,
+    instagram_username: 'pip01425',
     mastodon_url: undefined as string | undefined,
     bluesky_handle: undefined as string | undefined,
     medium_username: undefined as string | undefined,
-    /** Path to CV PDF in public/assets/pdf/ */
-    cv_pdf: '/assets/pdf/example_pdf.pdf',
-    /** Show RSS icon in social links */
-    rss_icon: true,
+    cv_pdf: '/assets/pdf/cv_felipe.pdf',
+    rss_icon: false,
   },
 
   // ─── Navigation ────────────────────────────────────────────────────────────
 
   navbar: {
-    /** Fix navbar to top of viewport. */
-    fixed: true,
-    /** Show social icons in navbar (about page only). */
-    socialIcons: false,
-    /**
-     * Top-level navigation items.
-     * Use `{ label, href }` for a plain link.
-     * Use `{ label, children: [...] }` for a dropdown group (max 2 levels).
-     *
-     * `href` values are relative to the site root (base is prepended automatically).
-     */
-    items: [
-      { label: 'about', href: '/' },
-      { label: 'blog', href: '/blog/' },
-      { label: 'publications', href: '/publications/' },
-      { label: 'projects', href: '/projects/' },
-      { label: 'repositories', href: '/repositories/' },
-      { label: 'cv', href: '/cv/' },
-      {
-        label: 'more',
-        children: [
-          { label: 'teaching', href: '/teaching/' },
-          { label: 'people', href: '/people/' },
-          { label: 'books', href: '/books/' },
-        ],
-      },
-    ] as NavItem[],
+  fixed: true,
+  socialIcons: false,
+  items: [
+    { label: 'Acerca de mi', href: '/' },
+    { label: 'Proyectos', href: '/projects/' },
+  ] as NavItem[],
   },
-
-  // ─── Footer ────────────────────────────────────────────────────────────────
-
-  footer: {
-    /**
-     * Text shown in footer. HTML is supported.
-     * Leave empty string to hide.
-     */
-    text: `Powered by <a href="https://github.com/dadangnh/as-folio" target="_blank" rel="noopener noreferrer">as-folio</a>.
-      Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.`,
-    /** Show "Last updated" timestamp in footer. */
-    lastUpdated: false,
-    /** Path to impressum/legal page (EU GDPR). Leave undefined to hide. */
-    impressum: undefined as string | undefined,
-    /**
-     * Footer display mode:
-     * 'sticky'  — always visible at the bottom of the viewport (al-folio default)
-     * 'normal'  — sits at the natural bottom of page content (only visible when scrolled down)
-     * 'hidden'  — footer is not rendered at all
-     */
-    position: 'sticky' as 'sticky' | 'normal' | 'hidden',
-  },
-
-  // ─── CV page ───────────────────────────────────────────────────────────────
 
   cv: {
-    /**
-     * Which CV data format to render.
-     * 'rendercv' → reads src/data/cv.yml (RenderCV YAML format)
-     * 'jsonresume' → reads src/data/resume.json (JSONResume format)
-     */
     format: 'rendercv' as 'rendercv' | 'jsonresume',
-    /** Path to CV PDF for the download button in public/assets/pdf/. */
-    pdfPath: '/assets/pdf/example_pdf.pdf',
+    pdfPath: '/assets/pdf/cv_felipe.pdf',
+  },
+
+  footer: {
+    text: `Powered by <a href="https://github.com/dadangnh/as-folio" target="_blank" rel="noopener noreferrer">as-folio</a>.
+      Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.`,
+    lastUpdated: false,
+    impressum: undefined as string | undefined,
+    position: 'sticky' as 'sticky' | 'normal' | 'hidden',
   },
 
   // ─── Blog ──────────────────────────────────────────────────────────────────
@@ -205,7 +139,7 @@ export const site = {
 
   announcements: {
     /** Show news/announcements section on the about page. */
-    enabled: true,
+    enabled: false,
     /** Enable vertical scroll if more than 3 items. */
     scrollable: true,
     /** Max news items to show (undefined = show all). */
@@ -214,14 +148,14 @@ export const site = {
 
   latestPosts: {
     /** Show latest blog posts section on the about page. */
-    enabled: true,
+    enabled: false,
     scrollable: true,
     limit: 3 as number | undefined,
   },
 
   selectedPapers: {
     /** Show selected publications section on the about page. */
-    enabled: true,
+    enabled: false,
   },
 
   // ─── Features ─────────────────────────────────────────────────────────────
@@ -408,7 +342,7 @@ export const site = {
   pages: {
     projects: {
       /** Description shown below the "projects" heading on the projects page. */
-      description: 'A growing collection of your cool projects.',
+     description: 'Evidencias del curso organizadas por categoría.',
     },
     teaching: {
       /** Description shown below the "teaching" heading on the teaching page. */
