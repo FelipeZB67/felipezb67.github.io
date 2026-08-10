@@ -68,7 +68,7 @@ function rehypeBasePaths() {
 // `import.meta.env.SITE` and `import.meta.env.BASE_URL`; it is not the
 // source of truth for deployment URLs.
 export default defineConfig({
-  site: 'https://felipezb.github.io',
+  site: 'https://felipezb67.github.io',
   base: '',
   output: 'static',
   trailingSlash: 'always',
