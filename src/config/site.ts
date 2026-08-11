@@ -82,12 +82,12 @@ export const site = {
   // ─── Navigation ────────────────────────────────────────────────────────────
 
   navbar: {
-  fixed: true,
-  socialIcons: false,
-  items: [
-    { label: 'Acerca de mi', href: '/' },
-    { label: 'Proyectos', href: '/projects/' },
-  ] as NavItem[],
+    fixed: true,
+    socialIcons: false,
+    items: [
+      { label: 'Acerca de mi', href: '/' },
+      { label: 'Proyectos', href: '/projects/' },
+    ] as NavItem[],
   },
 
   cv: {
@@ -342,7 +342,7 @@ export const site = {
   pages: {
     projects: {
       /** Description shown below the "projects" heading on the projects page. */
-     description: 'Evidencias del curso organizadas por categoría.',
+      description: 'Evidencias del curso organizadas por categoría.',
     },
     teaching: {
       /** Description shown below the "teaching" heading on the teaching page. */
