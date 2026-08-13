@@ -15,4 +15,4 @@ Aquí se presentan los modelos entidad-relación (MER) desarrollados durante el 
 
 ### Modelo: Plataforma
 
-![Modelo entidad-relación - Plataforma](/assets/img/plataforma.jpg)
+![Modelo entidad-relación - Plataforma](/assets/img/plataforma.jpg) 
