@@ -1,8 +1,18 @@
 ---
 title: Modelado
-description: Evidencias de modelado de datos.
+description: Diagramas entidad-relación, modelos conceptuales y modelos lógicos del curso.
 category: Evidencias
 importance: 1
 ---
 
-Próximamente se agregarán las evidencias correspondientes a Modelado.
+## Modelado de Datos
+
+Aquí se presentan los modelos entidad-relación (MER) desarrollados durante el curso.
+
+### Modelo: Torneo
+
+![Modelo entidad-relación - Torneo](/assets/img/torneo.jpg)
+
+### Modelo: Plataforma
+
+![Modelo entidad-relación - Plataforma](/assets/img/plataforma.jpg)
