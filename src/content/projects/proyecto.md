@@ -35,6 +35,11 @@ A continuación se presentan las evidencias del proyecto, organizadas por etapa.
 
 - [Diagrama UML del backend](/assets/pdf/vesperaroom/15-uml-backend.html)
 
+### Código fuente
+
+- [Descargar código fuente (frontend Angular, backend Spring Boot y scripts SQL)](/assets/code/vesperaroom-codigo-fuente.zip)
+- [Repositorio en GitHub](https://github.com/Fetchnt/vesperaroom)
+
 ### Cierre
 
 - [Acta de cierre](/assets/pdf/vesperaroom/16-acta-cierre.pdf)
