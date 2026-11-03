@@ -21,7 +21,6 @@ A continuación se presentan las evidencias del proyecto, organizadas por etapa.
 - [Modelo entidad-relación (MER)](/assets/pdf/vesperaroom/04-mer.pdf)
 - [Modelo entidad-relación — notación Barker](/assets/pdf/vesperaroom/05-modelo-er-barker.pdf)
 - [Modelo relacional](/assets/pdf/vesperaroom/06-modelo-relacional.pdf)
-- [Normalización del modelo de datos](/assets/pdf/vesperaroom/07-normalizacion.pdf)
 - [Diccionario de datos](/assets/pdf/vesperaroom/08-diccionario-datos.pdf)
 - [Ejercicios de álgebra relacional](/assets/pdf/vesperaroom/09-algebra-relacional.pdf)
 
@@ -34,7 +33,6 @@ A continuación se presentan las evidencias del proyecto, organizadas por etapa.
 
 ### Backend
 
-- [Documentación del backend (modelo 3FN completo)](/assets/pdf/vesperaroom/14-documentacion-backend.pdf)
 - [Diagrama UML del backend](/assets/pdf/vesperaroom/15-uml-backend.html)
 
 ### Cierre
