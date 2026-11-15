@@ -15,4 +15,10 @@ Aquí se presentan los modelos entidad-relación (MER) desarrollados durante el 
 
 ### Modelo: Plataforma
 
-![Modelo entidad-relación - Plataforma](/assets/img/plataforma.jpg) 
+![Modelo entidad-relación - Plataforma](/assets/img/plataforma.jpg)
+
+### Modelo: Veterinaria
+
+![Modelo entidad-relación - Veterinaria](/assets/img/veterinaria.svg)
+
+- [Descargar el diagrama editable (draw.io)](/assets/code/veterinaria.drawio) 

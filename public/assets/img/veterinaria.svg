@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1810 1660" width="1810" height="1660" font-family="Helvetica, Arial, sans-serif" font-size="12">
+<rect width="1810" height="1660" fill="#ffffff"/>
+<g fill="none" stroke="#000" stroke-width="1">
+<polyline points="220,172 360,172"/>
+<polyline points="350,140 390,140 390,290 420,290"/>
+<polyline points="350,240 390,240 390,290 420,290"/>
+<polyline points="350,340 390,340 390,290 420,290"/>
+<polyline points="350,440 390,440 390,290 420,290"/>
+<polyline points="150,200 200,200 200,240 230,240"/>
+<polyline points="150,280 200,280 200,240 230,240"/>
+<polyline points="710,92 850,92"/>
+<polyline points="780,90 780,170 1040,170 1040,260"/>
+<polyline points="910,90 910,170 1040,170 1040,260"/>
+<polyline points="1040,90 1040,170 1040,170 1040,260"/>
+<polyline points="1170,90 1170,170 1040,170 1040,260"/>
+<polyline points="1300,90 1300,170 1040,170 1040,260"/>
+<polyline points="1460,90 1460,170 1590,170 1590,260"/>
+<polyline points="1590,90 1590,170 1590,170 1590,260"/>
+<polyline points="1720,90 1720,170 1590,170 1590,260"/>
+<polyline points="220,792 360,792"/>
+<polyline points="350,760 390,760 390,850 420,850"/>
+<polyline points="350,850 390,850 390,850 420,850"/>
+<polyline points="350,940 390,940 390,850 420,850"/>
+<polyline points="695,680 695,740 765,740 765,810"/>
+<polyline points="835,680 835,740 765,740 765,810"/>
+<polyline points="1230,792 1370,792"/>
+<polyline points="1240,760 1170,760 1170,850 1110,850"/>
+<polyline points="1240,850 1170,850 1170,850 1110,850"/>
+<polyline points="1240,940 1170,940 1170,850 1110,850"/>
+<polyline points="220,1392 360,1392"/>
+<polyline points="350,1360 390,1360 390,1410 420,1410"/>
+<polyline points="350,1460 390,1460 390,1410 420,1410"/>
+<polyline points="840,1632 980,1632"/>
+<polyline points="910,1570 910,1520 1040,1520 1040,1440"/>
+<polyline points="1040,1570 1040,1520 1040,1520 1040,1440"/>
+<polyline points="1170,1570 1170,1520 1040,1520 1040,1440"/>
+<polyline points="560,290 705,290" stroke-width="5"/>
+<polyline points="560,290 705,290" stroke="#fff" stroke-width="2.5"/>
+<polyline points="825,290 970,290" stroke-width="5"/>
+<polyline points="825,290 970,290" stroke="#fff" stroke-width="2.5"/>
+<polyline points="1110,290 1255,290"/>
+<polyline points="1375,290 1520,290" stroke-width="5"/>
+<polyline points="1375,290 1520,290" stroke="#fff" stroke-width="2.5"/>
+<polyline points="1040,320 1040,530"/>
+<polyline points="1040,610 1040,820" stroke-width="5"/>
+<polyline points="1040,610 1040,820" stroke="#fff" stroke-width="2.5"/>
+<polyline points="560,850 705,850"/>
+<polyline points="825,850 970,850"/>
+<polyline points="1040,880 1040,1090" stroke-width="5"/>
+<polyline points="1040,880 1040,1090" stroke="#fff" stroke-width="2.5"/>
+<polyline points="1040,1170 1040,1380"/>
+<polyline points="560,1410 705,1410"/>
+<polyline points="825,1410 970,1410" stroke-width="5"/>
+<polyline points="825,1410 970,1410" stroke="#fff" stroke-width="2.5"/>
+<polyline points="1110,1410 1275,1410"/>
+<polyline points="1089,1380 1089,1300 1335,1300 1335,1370"/>
+<rect x="420" y="260" width="140" height="60" fill="#fff"/>
+<polygon points="765,250 825,290 765,330 705,290" fill="#fff"/>
+<rect x="970" y="260" width="140" height="60" fill="#fff"/>
+<polygon points="1315,250 1375,290 1315,330 1255,290" fill="#fff"/>
+<polygon points="1315,260 1361,290 1315,320 1269,290" fill="#fff"/>
+<rect x="1520" y="260" width="140" height="60" fill="#fff"/>
+<rect x="1528" y="268" width="124" height="44" fill="#fff"/>
+<rect x="420" y="820" width="140" height="60" fill="#fff"/>
+<polygon points="765,810 825,850 765,890 705,850" fill="#fff"/>
+<rect x="970" y="820" width="140" height="60" fill="#fff"/>
+<polygon points="1040,530 1100,570 1040,610 980,570" fill="#fff"/>
+<rect x="420" y="1380" width="140" height="60" fill="#fff"/>
+<polygon points="765,1370 825,1410 765,1450 705,1410" fill="#fff"/>
+<rect x="970" y="1380" width="140" height="60" fill="#fff"/>
+<polygon points="1040,1090 1100,1130 1040,1170 980,1130" fill="#fff"/>
+<polygon points="1335,1370 1395,1410 1335,1450 1275,1410" fill="#fff"/>
+<ellipse cx="290" cy="140" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="290" cy="240" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="290" cy="340" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="290" cy="340" rx="53" ry="24" fill="#fff"/>
+<ellipse cx="290" cy="440" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="90" cy="200" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="90" cy="280" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="780" cy="60" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="910" cy="60" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="1040" cy="60" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="1170" cy="60" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="1300" cy="60" rx="60" ry="30" fill="#fff" stroke-dasharray="4 3"/>
+<ellipse cx="1460" cy="60" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="1590" cy="60" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="1720" cy="60" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="290" cy="760" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="290" cy="850" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="290" cy="940" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="695" cy="650" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="835" cy="650" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="1300" cy="760" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="1300" cy="850" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="1300" cy="940" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="290" cy="1360" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="290" cy="1460" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="910" cy="1600" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="1040" cy="1600" rx="60" ry="30" fill="#fff"/>
+<ellipse cx="1170" cy="1600" rx="60" ry="30" fill="#fff"/>
+</g>
+<g fill="#000" text-anchor="middle" dominant-baseline="central"><text x="490" y="290" font-size="12">CLIENTE</text><text x="765" y="290" font-size="12">poseer</text><text x="1040" y="290" font-size="12">MASCOTA</text><text x="1315" y="290" font-size="12">recibir</text><text x="1590" y="290" font-size="12">VACUNACION</text><text x="490" y="850" font-size="12">MEDICAMENTO</text><text x="765" y="850" font-size="12">recetar</text><text x="1040" y="850" font-size="12">CONSULTA</text><text x="1040" y="570" font-size="12">asistir</text><text x="490" y="1410" font-size="12">CONSULTORIO</text><text x="765" y="1410" font-size="12">asignar</text><text x="1040" y="1410" font-size="12">VETERINARIO</text><text x="1040" y="1130" font-size="12">atender</text><text x="1335" y="1410" font-size="12">supervisar</text><text x="290" y="140" font-size="11">documento_cliente</text><text x="290" y="240" font-size="12">nombre</text><text x="290" y="340" font-size="12">telefono</text><text x="290" y="440" font-size="12">direccion</text><text x="90" y="200" font-size="12">primer_nombre</text><text x="90" y="280" font-size="12">primer_apellido</text><text x="780" y="60" font-size="12">id_mascota</text><text x="910" y="60" font-size="12">nombre_mascota</text><text x="1040" y="60" font-size="12">especie</text><text x="1170" y="60" font-size="11">fecha_nacimiento</text><text x="1300" y="60" font-size="12">edad</text><text x="1460" y="60" font-size="12">numero_dosis</text><text x="1590" y="60" font-size="12">nombre_vacuna</text><text x="1720" y="60" font-size="11">fecha_aplicacion</text><text x="290" y="760" font-size="11">codigo_medicamento</text><text x="290" y="850" font-size="11">nombre_medicamento</text><text x="290" y="940" font-size="12">precio</text><text x="695" y="650" font-size="12">dosis</text><text x="835" y="650" font-size="12">frecuencia</text><text x="1300" y="760" font-size="12">id_consulta</text><text x="1300" y="850" font-size="12">fecha_consulta</text><text x="1300" y="940" font-size="12">motivo</text><text x="290" y="1360" font-size="11">numero_consultorio</text><text x="290" y="1460" font-size="12">piso</text><text x="910" y="1600" font-size="12">id_veterinario</text><text x="1040" y="1600" font-size="11">nombre_veterinario</text><text x="1170" y="1600" font-size="12">especialidad</text><text x="765" y="230" font-size="12">1:N</text><text x="590" y="275" font-size="12">1..N</text><text x="940" y="275" font-size="12">1..1</text><text x="1315" y="350" font-size="12">1:N</text><text x="1130" y="570" font-size="12">1:N</text><text x="765" y="910" font-size="12">N:M</text><text x="1130" y="1130" font-size="12">N:1</text><text x="765" y="1350" font-size="12">1:1</text><text x="1192" y="1425" font-size="12">supervisado</text><text x="1385" y="1285" font-size="12">supervisor</text><text x="1425" y="1425" font-size="12">1:N</text></g>
+</svg>
