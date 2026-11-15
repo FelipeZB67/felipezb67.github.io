@@ -21,18 +21,12 @@ Aquí se presentan los modelos entidad-relación (MER) desarrollados durante el 
 
 ![Modelo entidad-relación - Veterinaria](/assets/img/veterinaria.svg)
 
-- [Descargar el diagrama editable (draw.io)](/assets/code/veterinaria.drawio)
-
 ## Modelos entidad-relación extendidos
 
 ### Modelo extendido: Cinema
 
 ![Modelo entidad-relación extendido - Cinema](/assets/img/cinema.svg)
 
-- [Descargar el diagrama editable (draw.io)](/assets/code/cinema.drawio)
-
 ### Modelo extendido: Colegio
 
-![Modelo entidad-relación extendido - Colegio](/assets/img/colegio.svg)
-
-- [Descargar el diagrama editable (draw.io)](/assets/code/colegio.drawio) 
+![Modelo entidad-relación extendido - Colegio](/assets/img/colegio.svg) 
