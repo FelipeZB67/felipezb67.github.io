@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2090 1880" width="2090" height="1880" font-family="Helvetica, Arial, sans-serif" font-size="12">
+<rect width="2090" height="1880" fill="#1c1c1d"/>
+<g fill="none" stroke="#e6e6e6" stroke-width="1">
+<rect x="910" y="30" width="1150" height="470" stroke-dasharray="6 4" stroke-width="1.5"/>
+<polyline points="220,192 360,192"/>
+<polyline points="350,160 410,160 410,280 440,280"/>
+<polyline points="350,240 410,240 410,280 440,280"/>
+<polyline points="350,320 410,320 410,280 440,280"/>
+<polyline points="350,400 410,400 410,280 440,280"/>
+<polyline points="150,280 200,280 200,320 230,320"/>
+<polyline points="150,360 200,360 200,320 230,320"/>
+<polyline points="980,140 980,190 1110,190 1110,250"/>
+<polyline points="1110,140 1110,190 1110,190 1110,250"/>
+<polyline points="1240,140 1240,190 1110,190 1110,250"/>
+<polyline points="1445,142 1585,142"/>
+<polyline points="1515,140 1515,190 1710,190 1710,250"/>
+<polyline points="1645,140 1645,190 1710,190 1710,250"/>
+<polyline points="1775,140 1775,190 1710,190 1710,250"/>
+<polyline points="1905,140 1905,190 1710,190 1710,250"/>
+<polyline points="1345,400 1345,365 1410,365 1410,320"/>
+<polyline points="1475,400 1475,365 1410,365 1410,320"/>
+<polyline points="580,280 750,280"/>
+<polyline points="870,280 1040,280" stroke-width="5"/>
+<polyline points="870,280 1040,280" stroke="#1c1c1d" stroke-width="2.5"/>
+<polyline points="1180,280 1350,280"/>
+<polyline points="1470,280 1640,280"/>
+<polyline points="1410,500 1410,610"/>
+<polyline points="1410,690 1410,840" stroke-width="5"/>
+<polyline points="1410,690 1410,840" stroke="#1c1c1d" stroke-width="2.5"/>
+<polyline points="1610,822 1750,822"/>
+<polyline points="1620,790 1540,790 1540,870 1480,870"/>
+<polyline points="1620,870 1540,870 1540,870 1480,870"/>
+<polyline points="1620,950 1540,950 1540,870 1480,870"/>
+<polyline points="1410,900 1410,1060" stroke-width="5"/>
+<polyline points="1410,900 1410,1060" stroke="#1c1c1d" stroke-width="2.5"/>
+<polyline points="1410,1140 1410,1300"/>
+<polyline points="1610,1242 1750,1242"/>
+<polyline points="1620,1210 1540,1210 1540,1330 1480,1330"/>
+<polyline points="1620,1280 1540,1280 1540,1330 1480,1330"/>
+<polyline points="1620,1350 1540,1350 1540,1330 1480,1330"/>
+<polyline points="1620,1420 1540,1420 1540,1330 1480,1330"/>
+<polyline points="1620,1490 1540,1490 1540,1330 1480,1330"/>
+<polyline points="1410,1360 1410,1428"/>
+<polyline points="1385,1472 1385,1527 1200,1527 1200,1630"/>
+<polyline points="1435,1472 1435,1527 1620,1527 1620,1630"/>
+<polyline points="1135,1790 1135,1740 1200,1740 1200,1690"/>
+<polyline points="1265,1790 1265,1740 1200,1740 1200,1690"/>
+<polyline points="1620,1790 1620,1740 1620,1740 1620,1690"/>
+<polyline points="510,310 510,540"/>
+<polyline points="510,620 510,840" stroke-width="5"/>
+<polyline points="510,620 510,840" stroke="#1c1c1d" stroke-width="2.5"/>
+<polyline points="220,782 360,782"/>
+<polyline points="350,750 410,750 410,870 440,870"/>
+<polyline points="350,830 410,830 410,870 440,870"/>
+<polyline points="350,910 410,910 410,870 440,870"/>
+<polyline points="350,990 410,990 410,870 440,870"/>
+<polyline points="580,870 770,870"/>
+<polyline points="559,840 559,770 830,770 830,830"/>
+<polyline points="510,900 510,1018"/>
+<polyline points="485,1062 485,1117 310,1117 310,1250"/>
+<polyline points="535,1062 535,1117 710,1117 710,1250"/>
+<polyline points="310,1410 310,1360 310,1360 310,1310"/>
+<polyline points="710,1410 710,1360 710,1360 710,1310"/>
+<polyline points="780,1280 1110,1280 1110,910"/>
+<polyline points="1110,830 1110,310"/>
+<rect x="440" y="250" width="140" height="60" fill="#1c1c1d"/>
+<polygon points="810,240 870,280 810,320 750,280" fill="#1c1c1d"/>
+<polygon points="810,250 856,280 810,310 764,280" fill="#1c1c1d"/>
+<rect x="1040" y="250" width="140" height="60" fill="#1c1c1d"/>
+<rect x="1047" y="257" width="126" height="46" fill="#1c1c1d"/>
+<polygon points="1410,240 1470,280 1410,320 1350,280" fill="#1c1c1d"/>
+<rect x="1640" y="250" width="140" height="60" fill="#1c1c1d"/>
+<ellipse cx="290" cy="160" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="290" cy="240" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="290" cy="320" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="290" cy="400" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="290" cy="400" rx="53" ry="24" fill="#1c1c1d"/>
+<ellipse cx="90" cy="280" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="90" cy="360" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="980" cy="110" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="1110" cy="110" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="1240" cy="110" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="1515" cy="110" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="1645" cy="110" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="1775" cy="110" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="1905" cy="110" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="1905" cy="110" rx="53" ry="24" fill="#1c1c1d"/>
+<ellipse cx="1345" cy="430" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="1475" cy="430" rx="60" ry="30" fill="#1c1c1d"/>
+<polygon points="1410,610 1470,650 1410,690 1350,650" fill="#1c1c1d"/>
+<rect x="1340" y="840" width="140" height="60" fill="#1c1c1d"/>
+<ellipse cx="1680" cy="790" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="1680" cy="870" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="1680" cy="950" rx="60" ry="30" fill="#1c1c1d"/>
+<polygon points="1410,1060 1470,1100 1410,1140 1350,1100" fill="#1c1c1d"/>
+<rect x="1340" y="1300" width="140" height="60" fill="#1c1c1d"/>
+<ellipse cx="1680" cy="1210" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="1680" cy="1280" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="1680" cy="1350" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="1680" cy="1420" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="1680" cy="1490" rx="60" ry="30" fill="#1c1c1d" stroke-dasharray="4 3"/>
+<rect x="1130" y="1630" width="140" height="60" fill="#1c1c1d"/>
+<rect x="1550" y="1630" width="140" height="60" fill="#1c1c1d"/>
+<polygon points="1410,1428 1435,1472 1385,1472" fill="#1c1c1d"/>
+<ellipse cx="1410" cy="1394" rx="8" ry="8" fill="#1c1c1d"/>
+<ellipse cx="1135" cy="1820" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="1265" cy="1820" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="1620" cy="1820" rx="60" ry="30" fill="#1c1c1d"/>
+<polygon points="510,540 570,580 510,620 450,580" fill="#1c1c1d"/>
+<rect x="440" y="840" width="140" height="60" fill="#1c1c1d"/>
+<ellipse cx="290" cy="750" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="290" cy="830" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="290" cy="910" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="290" cy="990" rx="60" ry="30" fill="#1c1c1d"/>
+<polygon points="830,830 890,870 830,910 770,870" fill="#1c1c1d"/>
+<rect x="240" y="1250" width="140" height="60" fill="#1c1c1d"/>
+<rect x="640" y="1250" width="140" height="60" fill="#1c1c1d"/>
+<polygon points="510,1018 535,1062 485,1062" fill="#1c1c1d"/>
+<polyline points="548.0,1073.1 547.2,1074.5 546.2,1075.8 545.1,1077.1 543.8,1078.3 542.4,1079.5 540.8,1080.7 539.2,1081.7 537.4,1082.8 535.5,1083.7 533.5,1084.6 531.4,1085.4 529.3,1086.2 527.0,1086.8 524.7,1087.4 522.4,1087.9 519.9,1088.3 517.5,1088.6 515.0,1088.8 512.5,1089.0 510.0,1089.0 507.5,1089.0 505.0,1088.8 502.5,1088.6 500.1,1088.3 497.6,1087.9 495.3,1087.4 493.0,1086.8 490.7,1086.2 488.6,1085.4 486.5,1084.6 484.5,1083.7 482.6,1082.8 480.8,1081.7 479.2,1080.7 477.6,1079.5 476.2,1078.3 474.9,1077.1 473.8,1075.8 472.8,1074.5 472.0,1073.1"/>
+<ellipse cx="510" cy="959" rx="8" ry="8" fill="#1c1c1d"/>
+<ellipse cx="310" cy="1440" rx="60" ry="30" fill="#1c1c1d"/>
+<ellipse cx="710" cy="1440" rx="60" ry="30" fill="#1c1c1d"/>
+<polygon points="1110,830 1170,870 1110,910 1050,870" fill="#1c1c1d"/>
+</g>
+<g fill="#e6e6e6" text-anchor="middle" dominant-baseline="central"><text x="510" y="280" font-size="12">SEDE</text><text x="810" y="280" font-size="12">contar</text><text x="1110" y="280" font-size="12">SALA</text><text x="1410" y="280" font-size="12">proyectar</text><text x="1710" y="280" font-size="12">PELICULA</text><text x="290" y="160" font-size="12">id_sede</text><text x="290" y="240" font-size="12">nombre_sede</text><text x="290" y="320" font-size="12">direccion</text><text x="290" y="400" font-size="12">telefono_sede</text><text x="90" y="280" font-size="12">calle</text><text x="90" y="360" font-size="12">ciudad</text><text x="980" y="110" font-size="12">numero_sala</text><text x="1110" y="110" font-size="12">capacidad</text><text x="1240" y="110" font-size="12">tipo_sala</text><text x="1515" y="110" font-size="12">codigo_pelicula</text><text x="1645" y="110" font-size="12">titulo</text><text x="1775" y="110" font-size="12">duracion</text><text x="1905" y="110" font-size="12">genero</text><text x="1345" y="430" font-size="12">fecha_funcion</text><text x="1475" y="430" font-size="12">hora_funcion</text><text x="810" y="220" font-size="12">1:N</text><text x="1410" y="220" font-size="12">N:M</text><text x="1410" y="650" font-size="12">generar</text><text x="1410" y="870" font-size="12">BOLETO</text><text x="1500" y="650" font-size="12">1:N</text><text x="1680" y="790" font-size="12">codigo_boleto</text><text x="1680" y="870" font-size="12">silla</text><text x="1680" y="950" font-size="12">precio</text><text x="1410" y="1100" font-size="12">comprar</text><text x="1410" y="1330" font-size="12">CLIENTE</text><text x="1500" y="1100" font-size="12">1:N</text><text x="1380" y="925" font-size="12">1..1</text><text x="1380" y="1275" font-size="12">0..N</text><text x="1680" y="1210" font-size="11">documento_cliente</text><text x="1680" y="1280" font-size="12">nombre_cliente</text><text x="1680" y="1350" font-size="12">correo</text><text x="1680" y="1420" font-size="11">fecha_nacimiento</text><text x="1680" y="1490" font-size="12">edad</text><text x="1200" y="1660" font-size="12">SOCIO</text><text x="1620" y="1660" font-size="12">ESTUDIANTE</text><text x="1455" y="1450" font-size="12">ES</text><text x="1135" y="1820" font-size="12">numero_tarjeta</text><text x="1265" y="1820" font-size="12">puntos</text><text x="1620" y="1820" font-size="12">institucion</text><text x="510" y="580" font-size="12">trabajar</text><text x="510" y="870" font-size="12">EMPLEADO</text><text x="600" y="580" font-size="12">1:N</text><text x="290" y="750" font-size="12">id_empleado</text><text x="290" y="830" font-size="12">nombre_empleado</text><text x="290" y="910" font-size="12">salario</text><text x="290" y="990" font-size="12">fecha_ingreso</text><text x="830" y="870" font-size="12">supervisar</text><text x="665" y="885" font-size="12">subordinado</text><text x="865" y="755" font-size="12">jefe</text><text x="920" y="885" font-size="12">1:N</text><text x="310" y="1280" font-size="12">TAQUILLERO</text><text x="710" y="1280" font-size="12">PROYECCIONISTA</text><text x="555" y="1040" font-size="12">ES</text><text x="310" y="1440" font-size="12">numero_caja</text><text x="710" y="1440" font-size="12">certificacion</text><text x="1110" y="870" font-size="12">operar</text><text x="1200" y="870" font-size="12">1:1</text></g>
+</svg>
