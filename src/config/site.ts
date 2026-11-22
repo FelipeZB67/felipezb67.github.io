@@ -341,8 +341,11 @@ export const site = {
 
   pages: {
     projects: {
-      /** Description shown below the "projects" heading on the projects page. */
-      description: 'Evidencias del curso organizadas por categoría.',
+      /** Heading of the projects page, also used as its browser tab title and as the back link label on each project page. */
+      title: 'PROYECTOS',
+      /** Description shown below the heading on the projects page. */
+      description:
+        'En esta sección están las evidencias de mi trabajo en Bases de Datos 1 en la Universidad El Bosque, organizadas por tema. En Modelado están los modelos entidad relación, normales y extendidos, hechos en Draw.io con su enunciado, sus supuestos y su objetivo de aprendizaje. En Normalización están los talleres en los que llevamos distintos esquemas, paso a paso, hasta la quinta forma normal. En SQL irán los ejercicios de consultas, y en Proyecto está VesperaRoom, el proyecto final del curso, con todos sus entregables.',
     },
     teaching: {
       /** Description shown below the "teaching" heading on the teaching page. */

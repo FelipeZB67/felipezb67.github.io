@@ -7,7 +7,7 @@ importance: 2
 
 ## Normalización
 
-Aquí están los talleres de normalización del curso. En todos se revisan las formas normales en orden, desde la primera hasta la quinta (1FN, 2FN, 3FN, BCNF, 4FN y 5FN), explicando paso a paso qué condición se revisa y por qué se cumple o no.
+Aquí están los tres documentos de esta parte del curso: el taller de normalización, la resolución del taller de reducción a tablas y la normalización de esas tablas. En la normalización se revisan las formas normales en orden, desde la primera hasta la quinta (1FN, 2FN, 3FN, BCNF, 4FN y 5FN), explicando paso a paso qué condición se revisa y por qué se cumple o no.
 
 ### Taller de normalización
 
@@ -26,6 +26,24 @@ A partir de cada esquema se pide identificar sus dependencias funcionales y su c
 1. Hospitalización: el esquema original solo estaba en 1FN y queda en 5FN con cuatro tablas: PACIENTE, CAMA, MEDICO y ATENCION.
 2. Pedidos: también estaba solo en 1FN y queda en 5FN con cinco tablas: CLIENTE, VENDEDOR, PRODUCTO, PEDIDO y DETALLE_PEDIDO.
 3. Empleado: no cumplía la 1FN y es el caso que muestra la 4FN, porque las competencias y los idiomas son dos listas independientes que deben ir en tablas separadas.
+
+### Taller de reducción a tablas
+
+Este taller parte de dos modelos entidad relación, el de una librería y el de un zoológico, y los convierte en tablas con sus claves primarias y foráneas. Es el paso previo a normalizar.
+
+#### Enunciado
+
+A partir de los dos diagramas del taller se pide leer sus entidades, atributos, claves y relaciones, y reducirlos a tablas aplicando las reglas vistas en clase, indicando en cada tabla su clave primaria y sus claves foráneas.
+
+**Objetivo de aprendizaje:** Aplicar las reglas de reducción según la cardinalidad de cada relación: las relaciones 1:N se resuelven con una clave foránea y las N:M con una tabla intermedia que guarda también sus atributos propios.
+
+[Ver el taller de reducción a tablas (PDF)](/assets/pdf/normalizacion/taller-reduccion-tablas.pdf)
+
+#### Resultado
+
+1. Librería: 11 tablas, 6 de entidades y 5 tablas intermedias, porque todas sus relaciones son N:M.
+2. Zoológico: 12 tablas, 7 de entidades y 5 intermedias. La relación entre especie y zona es 1:N y se resuelve con una clave foránea en ESPECIE.
+3. Las tablas se crean en orden: primero las que no tienen claves foráneas y al final las intermedias.
 
 ### Normalización del taller de reducción a tablas
 

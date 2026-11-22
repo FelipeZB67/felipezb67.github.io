@@ -395,11 +395,12 @@ Project description content (Markdown).
 
 Add images to `public/assets/img/projects/`.
 
-Set the subtitle shown below the page heading in `site.ts`:
+Set the page heading and the subtitle shown below it in `site.ts`. The `title` is also used as the browser tab title and as the back link label on each project page:
 
 ```typescript
 pages: {
   projects: {
+    title: 'projects',
     description: 'A growing collection of your cool projects.',
   },
 },
