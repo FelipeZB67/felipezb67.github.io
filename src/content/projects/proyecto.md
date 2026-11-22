@@ -1,6 +1,6 @@
 ---
 title: Proyecto
-description: VesperaRoom — sistema de gestión y reservas de moteles, proyecto final del curso de Bases de Datos 1.
+description: VesperaRoom es un sistema de gestión y reservas de moteles, el proyecto final del curso de Bases de Datos 1.
 category: Evidencias
 importance: 4
 ---
@@ -18,8 +18,8 @@ A continuación se presentan las evidencias del proyecto, organizadas por etapa.
 
 ### Modelado de datos
 
-- [Modelo entidad-relación (MER)](/assets/pdf/vesperaroom/04-mer.pdf)
-- [Modelo entidad-relación — notación Barker](/assets/pdf/vesperaroom/05-modelo-er-barker.pdf)
+- [Modelo entidad relación (MER)](/assets/pdf/vesperaroom/04-mer.pdf)
+- [Modelo entidad relación en notación Barker](/assets/pdf/vesperaroom/05-modelo-er-barker.pdf)
 - [Modelo relacional](/assets/pdf/vesperaroom/06-modelo-relacional.pdf)
 - [Diccionario de datos](/assets/pdf/vesperaroom/08-diccionario-datos.pdf)
 - [Ejercicios de álgebra relacional](/assets/pdf/vesperaroom/09-algebra-relacional.pdf)
