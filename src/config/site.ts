@@ -163,8 +163,8 @@ export const site = {
   features: {
     /** Enable dark/light mode toggle in navbar. */
     darkmode: true,
-    /** Enable ⌘K search. */
-    search: true,
+    /** Enable ⌘K search (navbar search button, search dialog and keyboard shortcut). */
+    search: false,
     /** Enable reading progress bar on blog posts. */
     progressBar: true,
     /** Show back-to-top button. */

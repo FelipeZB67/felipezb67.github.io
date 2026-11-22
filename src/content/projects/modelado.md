@@ -21,7 +21,7 @@ La universidad organiza un torneo de fútbol entre sus programas académicos y n
 
 ![Modelo entidad relación del torneo](/assets/img/torneo.jpg)
 
-[Ver el modelo en Draw.io](https://viewer.diagrams.net/?lightbox=1&nav=1&title=Torneo.drawio#Uhttps%3A%2F%2Ffelipezb67.github.io%2Fassets%2Fdrawio%2Ftorneo.drawio)
+[Ver el modelo en Draw.io](/assets/drawio/torneo.html)
 
 #### Supuestos
 
@@ -45,7 +45,7 @@ Una plataforma de streaming necesita guardar la información de sus usuarios y d
 
 ![Modelo entidad relación de la plataforma](/assets/img/plataforma.jpg)
 
-[Ver el modelo en Draw.io](https://viewer.diagrams.net/?lightbox=1&nav=1&title=Plataforma.drawio#Uhttps%3A%2F%2Ffelipezb67.github.io%2Fassets%2Fdrawio%2Fplataforma.drawio)
+[Ver el modelo en Draw.io](/assets/drawio/plataforma.html)
 
 #### Supuestos
 
@@ -69,7 +69,7 @@ Una clínica veterinaria necesita una base de datos para su atención diaria. De
 
 ![Modelo entidad relación de la veterinaria](/assets/img/veterinaria.svg)
 
-[Ver el modelo en Draw.io](https://viewer.diagrams.net/?lightbox=1&nav=1&title=Veterinaria.drawio#Uhttps%3A%2F%2Ffelipezb67.github.io%2Fassets%2Fdrawio%2Fveterinaria.drawio)
+[Ver el modelo en Draw.io](/assets/drawio/veterinaria.html)
 
 #### Supuestos
 
@@ -96,7 +96,7 @@ Una cadena de cines con varias sedes quiere organizar su información. Cada sede
 
 ![Modelo entidad relación extendido del cinema](/assets/img/cinema.svg)
 
-[Ver el modelo en Draw.io](https://viewer.diagrams.net/?lightbox=1&nav=1&title=Cinema.drawio#Uhttps%3A%2F%2Ffelipezb67.github.io%2Fassets%2Fdrawio%2Fcinema.drawio)
+[Ver el modelo en Draw.io](/assets/drawio/cinema.html)
 
 #### Supuestos
 
@@ -121,7 +121,7 @@ Un colegio necesita registrar a su personal, sus estudiantes y sus clases. Los f
 
 ![Modelo entidad relación extendido del colegio](/assets/img/colegio.svg)
 
-[Ver el modelo en Draw.io](https://viewer.diagrams.net/?lightbox=1&nav=1&title=Colegio.drawio#Uhttps%3A%2F%2Ffelipezb67.github.io%2Fassets%2Fdrawio%2Fcolegio.drawio)
+[Ver el modelo en Draw.io](/assets/drawio/colegio.html)
 
 #### Supuestos
 
