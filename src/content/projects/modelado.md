@@ -13,6 +13,10 @@ Aquí están los modelos entidad relación (MER) que desarrollé durante el curs
 
 Este modelo organiza un torneo de fútbol entre los programas académicos de la universidad. Cada programa inscribe equipos, los equipos están formados por jugadores y se enfrentan entre ellos en partidos. En cada partido se registran las tarjetas que recibe cada jugador.
 
+#### Enunciado
+
+La universidad organiza un torneo de fútbol entre sus programas académicos y necesita una base de datos para administrarlo. De cada programa se conoce su código, su nombre y su facultad. Cada programa inscribe equipos, de los que se guarda el código, el nombre, los colores del uniforme y el estado. Los jugadores se registran con su documento, nombre, apellido, semestre, jornada y fecha de nacimiento, y cada uno integra un equipo. Los equipos se enfrentan en partidos que tienen cancha, jornada, fecha, hora y estado, y de cada participación se registran los goles anotados y el rol del equipo. En los partidos se sacan tarjetas a los jugadores y de cada una se guarda el tipo, el minuto y el motivo.
+
 ![Modelo entidad relación del torneo](/assets/img/torneo.jpg)
 
 [Ver el modelo en Draw.io](https://viewer.diagrams.net/?lightbox=1&nav=1&title=Torneo.drawio#Uhttps%3A%2F%2Ffelipezb67.github.io%2Fassets%2Fdrawio%2Ftorneo.drawio)
@@ -31,6 +35,10 @@ Este modelo organiza un torneo de fútbol entre los programas académicos de la 
 
 Este modelo representa una plataforma de streaming. Los usuarios hacen búsquedas, ven contenidos y eligen las categorías que prefieren. Cada contenido pertenece a una o varias categorías y lo produce un productor.
 
+#### Enunciado
+
+Una plataforma de streaming necesita guardar la información de sus usuarios y de lo que ven. De cada usuario se conoce su documento, nombre, correo y sus métodos de pago. Los usuarios hacen búsquedas, de las que se guarda el texto y la fecha, y cada vez que ven algo se registra la fecha y el tiempo visto. Cada contenido tiene código IMDb, título, tipo, duración y año de lanzamiento, pertenece a una o varias categorías y lo produce un productor, del que se conoce su documento, nombre y país de origen. La plataforma también quiere saber qué categorías prefiere cada usuario y cuántas veces ha visto contenido de cada una.
+
 ![Modelo entidad relación de la plataforma](/assets/img/plataforma.jpg)
 
 [Ver el modelo en Draw.io](https://viewer.diagrams.net/?lightbox=1&nav=1&title=Plataforma.drawio#Uhttps%3A%2F%2Ffelipezb67.github.io%2Fassets%2Fdrawio%2Fplataforma.drawio)
@@ -48,6 +56,10 @@ Este modelo representa una plataforma de streaming. Los usuarios hacen búsqueda
 ### Modelo: Veterinaria
 
 Este modelo organiza la información de una clínica veterinaria: los clientes, sus mascotas, las consultas, las vacunas que se aplican y los veterinarios que atienden.
+
+#### Enunciado
+
+Una clínica veterinaria necesita una base de datos para su atención diaria. De los clientes se guarda el documento, el nombre, sus teléfonos y la dirección. Cada cliente tiene mascotas, de las que se conoce su identificador, nombre, especie y fecha de nacimiento. Las mascotas asisten a consultas con fecha y motivo, y cada consulta la atiende un veterinario. En las consultas se recetan medicamentos indicando la dosis y la frecuencia. También se registran las vacunas que recibe cada mascota, con el número de dosis, el nombre de la vacuna y la fecha de aplicación. Cada veterinario tiene un consultorio asignado y algunos veterinarios supervisan a otros.
 
 ![Modelo entidad relación de la veterinaria](/assets/img/veterinaria.svg)
 
@@ -70,6 +82,10 @@ Este modelo organiza la información de una clínica veterinaria: los clientes, 
 
 Este modelo representa una cadena de cines con varias sedes. Incluye las salas, las películas que se proyectan, los boletos que se venden, los clientes y los empleados de cada sede.
 
+#### Enunciado
+
+Una cadena de cines con varias sedes quiere organizar su información. Cada sede tiene nombre, dirección y teléfonos, y cuenta con varias salas numeradas dentro de ella. En las salas se proyectan películas en una fecha y hora, y de cada película se guarda el código, el título, la duración y sus géneros. Cada proyección genera boletos con silla y precio, que compran los clientes. Algunos clientes son socios, con número de tarjeta y puntos, y otros son estudiantes, con su institución. Los empleados trabajan en una sede, algunos supervisan a otros, y entre ellos hay taquilleros y proyeccionistas. Cada proyeccionista opera una sala.
+
 ![Modelo entidad relación extendido del cinema](/assets/img/cinema.svg)
 
 [Ver el modelo en Draw.io](https://viewer.diagrams.net/?lightbox=1&nav=1&title=Cinema.drawio#Uhttps%3A%2F%2Ffelipezb67.github.io%2Fassets%2Fdrawio%2Fcinema.drawio)
@@ -88,6 +104,10 @@ Este modelo representa una cadena de cines con varias sedes. Incluye las salas, 
 ### Modelo extendido: Colegio
 
 Este modelo representa un colegio: sus funcionarios, los cursos, los estudiantes, las asignaturas y los espacios donde se dictan las clases.
+
+#### Enunciado
+
+Un colegio necesita registrar a su personal, sus estudiantes y sus clases. Los funcionarios tienen identificador, nombre, teléfonos y fecha de nacimiento, y pueden ser docentes, con su especialidad, o directivos, con su cargo. Los docentes dictan asignaturas en un año lectivo y cada clase ocupa un espacio en un horario. Los espacios son aulas o laboratorios. Algunas asignaturas son requisito de otras. Cada curso tiene grado, jornada y un docente director, y los estudiantes pertenecen a un curso. De cada estudiante se registran observaciones con número, fecha y descripción.
 
 ![Modelo entidad relación extendido del colegio](/assets/img/colegio.svg)
 
