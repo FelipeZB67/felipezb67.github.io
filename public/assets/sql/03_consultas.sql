@@ -1,5 +1,5 @@
 -- Consultas sobre el esquema HR, organizadas por las presentaciones del curso.
--- Ejecutar despues de 02_insercion_datos.sql. Cada consulta se puede correr sola con Ctrl+Enter.
+-- Cada consulta se puede correr sola con Ctrl+Enter en Oracle SQL Developer.
 
 -- ============================================================================
 -- Presentacion 2: Recuperar datos con la sentencia SELECT
@@ -25,7 +25,7 @@ FROM employees;
 -- Presentacion 3: Restringir y ordenar los datos
 -- ============================================================================
 
--- Empleados del departamento de Tecnologia
+-- Empleados del departamento de IT
 SELECT employee_id, last_name, job_id, salary
 FROM employees
 WHERE department_id = 60;
@@ -62,7 +62,7 @@ SELECT first_name, last_name,
        LENGTH(last_name) AS letras_apellido
 FROM employees;
 
--- Pago diario aproximado de los empleados de Logistica, redondeado a dos decimales
+-- Pago diario aproximado de los empleados de Shipping, redondeado a dos decimales
 SELECT last_name, salary, ROUND(salary / 30, 2) AS pago_diario,
        TRUNC(salary / 30) AS pago_diario_entero
 FROM employees
@@ -84,10 +84,10 @@ SELECT last_name, TO_CHAR(hire_date, 'DD/MM/YYYY') AS fecha_ingreso,
        TO_CHAR(salary, '$99,999.00') AS salario
 FROM employees;
 
--- Empleados que ingresaron despues del 1 de enero de 2021
+-- Empleados que ingresaron despues del 1 de enero de 2017
 SELECT last_name, hire_date
 FROM employees
-WHERE hire_date > TO_DATE('01/01/2021', 'DD/MM/YYYY');
+WHERE hire_date > TO_DATE('01/01/2017', 'DD/MM/YYYY');
 
 -- Comision de cada empleado, mostrando 0 cuando no tiene
 SELECT last_name, NVL(commission_pct, 0) AS comision,
@@ -158,12 +158,12 @@ ORDER BY d.department_name;
 -- Presentacion 8: Subconsultas
 -- ============================================================================
 
--- Empleados que ganan mas que Castro
+-- Empleados que ganan mas que Abel
 SELECT last_name, salary
 FROM employees
 WHERE salary > (SELECT salary
                 FROM employees
-                WHERE last_name = 'Castro');
+                WHERE last_name = 'Abel');
 
 -- Empleados que ganan el salario mas bajo de la empresa
 SELECT last_name, job_id, salary
@@ -179,12 +179,12 @@ HAVING MIN(salary) > (SELECT MIN(salary)
                       FROM employees
                       WHERE department_id = 50);
 
--- Empleados que trabajan en departamentos ubicados en Bogota
+-- Empleados que trabajan en departamentos ubicados en Seattle
 SELECT last_name, department_id
 FROM employees
 WHERE department_id IN (SELECT department_id
                         FROM departments
-                        WHERE location_id = 1000);
+                        WHERE location_id = 1700);
 
 -- ============================================================================
 -- Presentacion 9: Operadores de conjunto
