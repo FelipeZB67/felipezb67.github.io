@@ -1,4 +1,5 @@
 ---
+import CodeCopyButtons from '@components/CodeCopyButtons.astro';
 import Giscus from '@components/Giscus.astro';
 import { site } from '@config/site';
 import Page from '@layouts/Page.astro';
@@ -137,6 +138,12 @@ const relatedEntries =
       <div class="prose" id="project-content">
         <Content />
       </div>
+      <CodeCopyButtons
+        selector="#project-content"
+        label={site.codeCopy.projects.label}
+        copiedLabel={site.codeCopy.projects.copiedLabel}
+        alwaysVisible
+      />
     </article>
 
     <!-- References section -->

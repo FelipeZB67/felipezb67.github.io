@@ -1,0 +1,83 @@
+---
+/**
+ * Adds a copy button to every code block inside `selector`.
+ * The button text comes from props so each page can use its own language.
+ */
+interface Props {
+  /** CSS selector of the container whose `pre` blocks get a button. */
+  selector: string;
+  /** Button text before copying. */
+  label: string;
+  /** Button text shown for two seconds after copying. */
+  copiedLabel: string;
+  /** Keep the button visible instead of showing it only on hover. */
+  alwaysVisible?: boolean;
+}
+
+const { selector, label, copiedLabel, alwaysVisible = false } = Astro.props;
+---
+
+<span
+  class="code-copy-config"
+  hidden
+  data-selector={selector}
+  data-label={label}
+  data-copied={copiedLabel}
+  data-always={alwaysVisible ? 'true' : 'false'}></span>
+
+<!-- Text-label approach, no innerHTML -->
+<script>
+  function addCopyButtons() {
+    document.querySelectorAll<HTMLElement>('.code-copy-config').forEach((cfg) => {
+      const { selector = '', label = '', copied = '', always } = cfg.dataset;
+      document.querySelectorAll<HTMLElement>(`${selector} pre`).forEach((pre) => {
+        if (pre.querySelector('.copy-btn')) return;
+        const btn = document.createElement('button');
+        btn.className = always === 'true' ? 'copy-btn copy-btn--visible' : 'copy-btn';
+        btn.type = 'button';
+        btn.setAttribute('aria-label', label);
+        btn.textContent = label;
+        btn.addEventListener('click', async () => {
+          const code = pre.querySelector('code');
+          if (!code) return;
+          await navigator.clipboard.writeText(code.innerText);
+          btn.textContent = copied;
+          setTimeout(() => {
+            btn.textContent = label;
+          }, 2000);
+        });
+        pre.style.position = 'relative';
+        pre.appendChild(btn);
+      });
+    });
+  }
+  document.addEventListener('astro:page-load', addCopyButtons);
+</script>
+
+<style is:global>
+  /* The button is injected with JS, so these rules must be global. */
+  .copy-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s;
+    font-size: 0.7rem;
+    font-family: var(--font-mono, monospace);
+    background-color: var(--global-card-bg-color, #f5f5f5);
+    color: var(--global-text-color-light, #888);
+    line-height: 1.5;
+  }
+  pre:hover .copy-btn,
+  .copy-btn--visible {
+    opacity: 1;
+  }
+  .copy-btn:hover {
+    background-color: var(--global-theme-color);
+    color: var(--global-hover-text-color, #fff);
+  }
+</style>

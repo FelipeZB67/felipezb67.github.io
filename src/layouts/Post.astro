@@ -2,6 +2,7 @@
 import PostMeta from '@components/blog/PostMeta.astro';
 import RelatedPosts from '@components/blog/RelatedPosts.astro';
 import SocialShare from '@components/blog/SocialShare.astro';
+import CodeCopyButtons from '@components/CodeCopyButtons.astro';
 import Giscus from '@components/Giscus.astro';
 import Newsletter from '@components/Newsletter.astro';
 import ReadingProgress from '@components/ReadingProgress.astro';
@@ -192,33 +193,12 @@ const jsonLd = {
       </article>
     </div>
   </div>
+  <CodeCopyButtons
+    selector="#post-content"
+    label={site.codeCopy.posts.label}
+    copiedLabel={site.codeCopy.posts.copiedLabel}
+  />
 </Base>
-
-<!-- Code copy button (text-label approach, no innerHTML) -->
-<script>
-  function addCopyButtons() {
-    const blocks = document.querySelectorAll('#post-content pre');
-    blocks.forEach((pre) => {
-      if (pre.querySelector('.copy-btn')) return;
-      const btn = document.createElement('button');
-      btn.className = 'copy-btn';
-      btn.setAttribute('aria-label', 'Copy code');
-      btn.textContent = 'copy';
-      btn.addEventListener('click', async () => {
-        const code = pre.querySelector('code');
-        if (!code) return;
-        await navigator.clipboard.writeText(code.innerText);
-        btn.textContent = 'copied!';
-        setTimeout(() => {
-          btn.textContent = 'copy';
-        }, 2000);
-      });
-      (pre as HTMLElement).style.position = 'relative';
-      pre.appendChild(btn);
-    });
-  }
-  document.addEventListener('astro:page-load', addCopyButtons);
-</script>
 
 <!-- Medium zoom for post images -->
 <script>
@@ -538,29 +518,4 @@ const jsonLd = {
     width: 100%;
   }
 
-  /* Copy button is dynamically injected via JS — scoped CSS won't reach it.
-     Use :global so the class name isn't mangled with a data-astro-cid attribute. */
-  .copy-btn {
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
-    padding: 0.2rem 0.5rem;
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
-    opacity: 0;
-    transition: opacity 0.2s;
-    font-size: 0.7rem;
-    font-family: var(--font-mono, monospace);
-    background-color: var(--global-card-bg-color, #f5f5f5);
-    color: var(--global-text-color-light, #888);
-    line-height: 1.5;
-  }
-  pre:hover .copy-btn {
-    opacity: 1;
-  }
-  .copy-btn:hover {
-    background-color: var(--global-theme-color);
-    color: var(--global-hover-text-color, #fff);
-  }
 </style>

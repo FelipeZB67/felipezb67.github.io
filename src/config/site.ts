@@ -337,6 +337,22 @@ export const site = {
     disqusShortname: '' as string,
   },
 
+  // ─── Code copy buttons ────────────────────────────────────────────────────
+
+  /** Text of the copy button added to code blocks. */
+  codeCopy: {
+    /** Blog posts: the button appears when hovering a code block. */
+    posts: {
+      label: 'copy',
+      copiedLabel: 'copied!',
+    },
+    /** Project pages: the button stays visible on every code block. */
+    projects: {
+      label: 'Copiar código',
+      copiedLabel: 'Copiado',
+    },
+  },
+
   // ─── Page copy ────────────────────────────────────────────────────────────
 
   pages: {

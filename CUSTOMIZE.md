@@ -406,6 +406,15 @@ pages: {
 },
 ```
 
+Code blocks in blog posts and project pages get a copy button. Its text is set in `site.ts`; on project pages the button stays visible, in posts it appears on hover:
+
+```typescript
+codeCopy: {
+  posts: { label: 'copy', copiedLabel: 'copied!' },
+  projects: { label: 'Copy code', copiedLabel: 'Copied' },
+},
+```
+
 ---
 
 ## 8. CV
